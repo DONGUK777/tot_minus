@@ -13,5 +13,8 @@ readme = "README.md"
 license = {text = "MIT"}
 
 
+[project.scripts]
+tot_minus = 'tot_minus.minus:minus'
+
 [tool.pdm]
 distribution = true
