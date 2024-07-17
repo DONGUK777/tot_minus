@@ -1,4 +1,7 @@
+import sys
+
 def minus():
-    a = 10
-    b = 5
-    print(a, '-', b, '=', a-b)    
+    a = int(sys.argv[1])
+    b = int(sys.argv[2])
+
+    print(a, '-', b, '=', (a-b))    
